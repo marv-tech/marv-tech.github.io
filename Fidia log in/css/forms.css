@@ -1,0 +1,203 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-family: 'Sora', sans-serif;
+  }
+.wrap{
+    display: flex;
+    padding-top: 0;
+    height: 100%;
+    width: 621px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background-image:url("../img/Side\ Asset\ 1.png");
+    float: left;
+    background-position:center;
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    position: fixed;
+    width: 540px;
+    height: 100%;
+    left: 708px;
+    top: 50px;
+    background-color: white;  
+
+}
+
+label{
+    display: block;
+    padding: 1rem 0 0.5rem 0rem;
+    margin: 1rem 0 0 0 ;
+
+}
+h3{
+    color: #9d9c9c;
+    font-size: 1rem;
+    margin-top: 60px;
+}
+
+h2{
+    color: #333333;
+    font-style: normal;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+button{
+    width: 35rem;
+    height: 3rem;
+    display: block;
+    border: 1px solid #a8abb1;
+    border-radius: 5px;
+    background-color:#292a73;
+    color: white;
+    cursor:pointer;
+
+    
+}
+
+input{
+    width: 35rem;
+    height: 3rem;
+    display: block;
+    border: 0.5px solid #787676;
+    border-radius: 5px;
+    background-color: #e7f0fe;
+    padding-left: 2rem;  
+    cursor:text;
+   
+}
+
+b{
+    color: #f5a300;
+    cursor:pointer;
+}
+
+.googleauth{
+    background-color: white;
+    color: #939191;
+    font-size: 1rem;
+    box-shadow: 1px 1px 20px rgba(120, 118, 118, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(120, 118, 118, 0.05);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+#connectGoogleText{
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    margin-bottom: 0;
+}
+
+footer{
+    color: white;
+    position: absolute;
+    left: 10.31%;
+    right: 47.34%;
+    top: 93.55%;
+    bottom: 4.2%;
+    font-family: 'sora';
+    font-style: normal;
+    font-weight: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.231818px;
+}
+
+.wrap:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.wrapper:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+img{
+    width: 23px;
+    margin-right: 1.5rem;
+    /* position: absolute;
+    left: 25%; */
+}
+input:focus{
+    background:white;
+}
+hr{
+    position: absolute;
+    width: 540px;
+    height: 1px;
+    left: 0px;
+    top: 240px;
+    background: #E5E9F2;
+    border: 0;
+    
+}
+#ortext{
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    left: 272px;
+    top: 227px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;  
+    color: #787676;
+    border-radius: 18px;
+    background-color: #E5E9F2;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+#eyeicon{
+    float: right;
+    height: 19px;
+    width: 23px;
+    border-left: none;
+    margin: 2px 30px 0px -2px;
+    position: relative;
+    bottom: 35px;
+
+
+}
+#fidialogo{
+    position: absolute;
+    left: 10.47%;
+    right: 78.26%;
+    top: 4.66%;
+    bottom: 91.81%;
+    height: 25.85997772216797px;
+    width: 70px;
+    left: 45px;
+    top: 28px;
+    border-radius: 0px;
+    
+
+}
+#fidia{
+    height: 23px;
+    width: 60px;
+}
